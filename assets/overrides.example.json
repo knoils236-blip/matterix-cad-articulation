@@ -1,0 +1,12 @@
+{
+  "_doc": "Facts the mates alone do not pin down. Every entry carries its evidence (manual page, datasheet, geometric coincidence + user confirmation). weld: the two components move as one rigid body (\"<ground>\" = fixed base). drop: ignore every row of that mate (feature, owner as in the export). names: limit-owner substring -> joint base name. stator_prefixes: leaf-name prefixes of module stators (parent side of a linear module).",
+  "weld": [
+    ["Gantry-1/DDL14-1/主体DDL14-1", "<ground>", "说明书 p.3：Y 轴定子固定在机架上"],
+    ["Gantry-1/DDL11-1/主体DDL11-1", "Gantry-1/DDL14-1/滑块DDL14-1", "说明书 p.3：X 轴横梁由 Y 滑块承载"]
+  ],
+  "drop": [
+    ["重合986", "Gantry-1", "把运动托架停放在整机原点基准面上；托架随 Z 模组运动"]
+  ],
+  "names": [["DDL11", "gantry_x"], ["DDL14", "gantry_y"], ["GTH5", "z"], ["注射器", "syringe_plunger"]],
+  "stator_prefixes": ["主体"]
+}

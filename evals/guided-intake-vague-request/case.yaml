@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: guided-intake-vague-request
+expected_outcome: |
+  助手没有直接开工或一次抛出全部问题，而是先概述分阶段流程和每阶段需要用户提供的东西，然后只问当前阶段的内容：CAD 文件路径与格式、输出目录、哪些机构要动、有没有说明书或型号手册；说明 SolidWorks 装配可以从配合推导关节（需要用户在 Windows 上装插件导出一次）、只有 STEP 时要用户给关节表；没有编造文件路径、机构或行程，也没有声称已经开始转换。

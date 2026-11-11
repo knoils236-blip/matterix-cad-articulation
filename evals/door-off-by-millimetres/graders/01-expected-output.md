@@ -1,0 +1,7 @@
+---
+type: llm
+focus: trace
+weight: 1
+---
+
+The result matches this description: 助手先用 --no-link-collisions 对照或把气弹簧目标设为随门变化的对照实验定位到被动件被安装点拽住；按实机连接（杆接机架、缸筒接门，参照对称的另一根气弹簧）写入带依据的 weld，重跑 build_rig/build_articulated/validate，所有关节误差 <1 mm；不放宽 tol、不删关节、不加大刚度掩盖。
